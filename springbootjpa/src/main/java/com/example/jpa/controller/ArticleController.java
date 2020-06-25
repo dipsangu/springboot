@@ -30,8 +30,9 @@ public class ArticleController {
     public Article updateArticle() {
         return null;
     }
+
     @DeleteMapping("/articles/{articleId}")
-    public ResponseEntity<?> deleteArticle(@PathVariable Long articleId) {
+    public ResponseEntity<?> deleteArticle() {
     	return null;
     }
 
